@@ -4,7 +4,7 @@ OpenSSL simple way of encrypting files
 ---
 
 ## generates private key
-`openssl genrsa -des3 -out private.key 4096``
+`openssl genrsa -des3 -out private.key 4096`
 ## generates public key from private key
 `openssl rsa -in private.key -pubout -out public.key`
 ## creating a really secret file
